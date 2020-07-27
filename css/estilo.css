@@ -1,0 +1,127 @@
+/* branco - 6e6e6e
+cana - e1ecb9
+azul bebê - a9bed8
+Anis - cce2d8
+Aluminio - d5d5d5
+marfim - fdf9f2
+limão - 9ec330
+coral - e96f62
+nautico - 84a7d1
+baltico - 42b0ad
+mescla - aeada9
+amarelo queimado - fef2ba
+pêra - 76b764
+rosa seco - f6d8e1
+oceano - 64c4e9
+laranja - f19337
+chumbo - 4c4e4b
+amarelo banana - ffee89
+bandeira - 499f53
+rosa bebe - f1abbe
+royal - 003f8e
+melancia - e6584b
+escalate - d45220
+canario - fedd51
+milita - 526311
+pink - b93e64
+carbono - 165388
+borno - ba3b55
+caqui - 9f8464
+amarelo ouro - f8c334
+petroleo - 1b5352
+lilas - a983b6
+indico - 386380
+vermelho - cb381c
+titanio - b7a893
+mostarda - dcb020
+musgo - 153a28
+roxo - 643d82
+marinho - 072059
+vinho - 82273d
+preto - 000000 */
+
+
+
+
+.dropdown-menu.show {display: flex; /*border: none; */ } 
+.img {width: 44px; height: 44px; }
+
+#cor {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #000000;
+    background-color: #FFFF00;
+
+}
+#cor1 {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #000000;
+  background-color: #e61d1d;
+  flex-direction: row;
+
+}
+#cor2 {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #000000;
+  background-color: #24e61d;
+  flex-direction: row;
+
+}
+#cor3 {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #000000;
+  background-color: #3b1de6;
+  flex-direction: row;
+
+}
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #fff;
+}
+
+input[type='checkbox'] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  
+}
+
+input[type='checkbox'] + label {
+  position: relative;
+  cursor: pointer;
+  padding-left: 30px;
+
+}
+input[type='checkbox'] + label::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 0;
+  bottom: 0;
+  border: solid 2px;
+  vertical-align: bottom;
+}
+input[type='checkbox']:checked + label::after {
+  content: '';
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  width: 10px;
+  height: 20px;
+  border-right: solid 3px green;
+  border-bottom: solid 3px green;
+  transform: rotate(45deg);
+}
+.input-group-text {
+  background-color: #fff;
+  border: none;
+}
+.m 
+/* Aqui estou usando dataset boas praticas de Javascript 6+ mais voce pode usar nomeclatura que quiser ou selecionar por classe ou id  */
